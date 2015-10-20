@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio</title>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+        <link rel="stylesheet" href="css/uikit.min.css" />
+        <link rel="stylesheet" href="scss/style.css" />
+        <link rel="stylesheet" href="css/components/autocomplete.css">
+        <link id="data-uikit-theme" rel="stylesheet" href="css/uikit.docs.min.css">
+        <link href='http://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/docs.css">
+        <script src="js/jquery.js"></script>
+        <script src="js/uikit.min.js"></script>
+        <script src="js/uikit.js"></script>
+        <script src="js/components/sticky.js"></script>
+        <script src="js/components/autocomplete.js"></script>
+    </head>
+    <body>
+    <div id="home">
+
+    <div id="pagetop">
+    	<p class="uk-float-right" style="display: block; position: fixed; bottom: 0px; margin-top: 0px;">
+    		<a href="#home-01" data-uk-smooth-scroll=""><img src="https://www.mymall.co.jp/cmscp/wp-content/themes/mymall/img/common/footer/pagetop.png" alt="ページの上部へ"></a>
+    	</p>
+    </div>
+
+	<nav id="header" class="uk-navbar" data-uk-sticky>
+		<ul class="uk-navbar-nav">
+			<li><a href="index.html"><span class="logo">Portfolio</span></a></li>
+		</ul>
+    	<div class="uk-navbar-flip">
+    		<ul class="uk-navbar-nav hidden-ss">
+		        <li><a href="index.html">home</a></li>
+		        <li><a href="#home-03">works</a></li>
+		        <li class="uk-parent"><a href="#home-02">profile</a></li>
+		    </ul>
+		    <div class="uk-button-dropdown visible-ss" data-uk-dropdown>
+		        <button class="uk-button">Hover me <i class="uk-icon-caret-down"></i></button>
+		        <div class="uk-dropdown">
+		            <ul class="uk-nav uk-nav-dropdown">
+		                <li><a href="index.html">home</a></li>
+		                <li><a href="#home-02">profile</a></li>
+		                <li><a href="#home-03">works</a></li>
+		            </ul>
+		        </div>
+		    </div>
+		</div>
+	</nav>
+
+	<section id="home-01" class="uk-overlay uk-overlay-hover">
+		<div class="">
+			<div class="uk-overlay-panel uk-overlay-fade">
+        	<h3 class="tit ">Please make yourself at home </h3>
+        	<p class="tr"><a href="#home-02">▼</a></p>
+        	</div>
+        </div>
+   	</section>
+
+   	<section id="home-02">
+   		<div class="tit-panel">
+        	<h2 class="tit">Profile</h2>
+        </div>
+        <!-- small medium -->
+        <div class="text-panel">
+	        <div class="uk-visible-small">
+	        	<div class="position name">
+		        	<p>Name：Ayumu Tsuda</p>
+		        	<p>Affiliation：Ritsumeikan Univercity</p>
+		        	<p>Major：Infomation Sciense</p>
+		        </div>
+	        </div>
+	        <!-- large -->
+	        <div class="uk-hidden-small">
+	        	<div class="uk-container">
+			        <div class="uk-grid uk-grid-width-medium-1-2">
+			        	<div class="name">
+			        		<p>Name：Ayumu Tsuda</p>
+				        	<p>Affiliation：Ritsumeikan Univercity</p>
+				        	<p>Major：Infomation Sciense</p>
+			        	</div>
+			        	<div>
+			        		<img class="profile" src="images/prof.jpg" width="100%" alt="">
+			        	</div>
+			        </div>
+			    </div>
+	        </div>
+	    </div>
+    </section>
+
+    <section id="home-03">
+        <div class="tit-panel">
+        	<h2 class="tit">Works</h2>
+        </div>
+
+		<!-- small medium -->
+		 <div class="uk-hidden-large">
+    		<div class="uk-grid uk-grid-width-small-1-2">
+    			<section id="content-01" class="md-com-panel-01 uk-scrollspy-init-inview" data-uk-scrollspy="{cls:'uk-animation-slide-bottom', repeat: true}">
+    				<div class="Triangle">
+    					<h3 class="tit mb0">No.1<br>Management</h3>
+    				</div>
+    				<div class="uk-overlay uk-overlay-hover">
+                        <a href="work/content-01/01.html">
+                        	<img src="images/works/ludolph.png" alt="">
+                        	<p class="mt0 uk-overlay-panel uk-overlay-fade">Maneging <br> By  <br> Wordpress</p>
+                        </a>
+                    </div>
+    			</section>
+    			<section id="content-02" class="md-com-panel-02 uk-scrollspy-init-inview" data-uk-scrollspy="{cls:'uk-animation-slide-bottom', repeat: true}">
+    				<div class="Triangle">
+    					<h3 class="tit mb0">No.2<br>Site Creating</h3>
+    				</div>
+    				<div class="uk-overlay uk-overlay-hover">
+    					<a href="work/content-02/01.html">
+	    					<img src="images/works/enos.png" alt="">
+	    					<p class="uk-overlay-panel uk-overlay-fade">Design and Create</p>
+	    				</a>
+    				</div>
+    			</section>
+    			<section id="content-03">
+	    			<div class="hidden-ss">
+		    			<section class="md-com-panel-02 uk-scrollspy-init-inview" data-uk-scrollspy="{cls:'uk-animation-slide-bottom', repeat: true}">
+		    				<div class="Triangle">
+		    					<h3 class="tit mb0">No.3<br>Page Creating</h3>
+		    				</div>
+		    				<div class="uk-overlay uk-overlay-hover">
+		    					<a href="work/content-03/01.html">
+			    					<img src="images/works/house.png" alt="">
+			    					<p class="uk-overlay-panel uk-overlay-fade">Only One Page</p>
+			    				</a>
+		    				</div>
+		    			</section>
+		    		</div>
+		    		<div class="visible-ss">
+		    			<section class="md-com-panel-01 uk-scrollspy-init-inview" data-uk-scrollspy="{cls:'uk-animation-slide-bottom', repeat: true}">
+		    				<div class="Triangle">
+		    					<h3 class="tit mb0">No.3<br>Page Creating</h3>
+		    				</div>
+		    				<div class="uk-overlay uk-overlay-hover">
+		    					<a href="work/content-03/01.html">
+			    					<img src="images/works/house.png" alt="">
+			    					<p class="uk-overlay-panel uk-overlay-fade">Only One Page</p>
+			    				</a>
+		    				</div>
+		    			</section>
+		    		</div>
+		    	</section>
+		    	<section id="content-04">
+		    		<div class="hidden-ss">
+	    				<section class="md-com-panel-01 uk-scrollspy-init-inview" data-uk-scrollspy="{cls:'uk-animation-slide-bottom', repeat: true}">
+	    					<div class="Triangle">
+	    						<h3 class="tit mb0">No.4<br>Others</h3>
+	    					</div>
+	    					<div class="uk-overlay uk-overlay-hover">
+	    						<a href="work/content-04/01.html">
+		    						<img src="images/works/plapla.png" alt="">
+		    						<p class="uk-overlay-panel uk-overlay-fade">Web Service</p>
+	    						</a>
+	    					</div>
+	    				</section>
+	    			</div>
+	    			<div class="visible-ss">
+	    				<section class="md-com-panel-02 uk-scrollspy-init-inview" data-uk-scrollspy="{cls:'uk-animation-slide-bottom', repeat: true}">
+	    					<div class="Triangle">
+	    						<h3 class="tit mb0">No.4<br>Others</h3>
+	    					</div>
+	    					<div class="uk-overlay uk-overlay-hover">
+		    					<a href="work/content-04/01.html">
+		    						<img src="images/works/plapla.png" alt="">
+		    						<p class="uk-overlay-panel uk-overlay-fade">Web Service</p>
+		    					</a>
+	    					</div>
+	    				</section>
+	    			</div>
+    			</section>
+	    	</div>
+			
+		</div>
+
+		<!-- large -->
+		<div class="uk-visible-large">
+	    	<div class="top-panel-01">
+    			<section id="content-01" class="uk-grid uk-grid-width-1-2 lg-com-panel-01 uk-scrollspy-init-inview" data-uk-scrollspy="{cls:'uk-animation-slide-left', repeat: true}">
+    				<div class="Triangle">
+    					<h3 class="tit">No.1<br>Management</h3>
+    				</div>
+    				<div class="uk-overlay uk-overlay-hover">
+    					<a href="work/content-01/01.html">
+	    					<img class="" src="images/works/ludolph.png" alt="">
+	    					<p class="uk-overlay-panel uk-overlay-fade">Maneging By Wordpress</p>
+	    				</a>
+    				</div>
+    			</section>
+    			<section id="content-02" class="uk-grid uk-grid-width-1-2 lg-com-panel-02 uk-scrollspy-init-inview" data-uk-scrollspy="{cls:'uk-animation-slide-right', repeat: true}">
+    				<div class="uk-overlay uk-overlay-hover">
+    					<a href="work/content-02/01.html">
+	    					<img src="images/works/enos.png" alt="">
+	    					<p class="uk-overlay-panel uk-overlay-fade">Design and Create</p>
+	    				</a>
+    				</div>
+    				<div class="Triangle">
+    					<h3 class="tit">No.2<br>Site Creating</h3>
+    				</div>
+    			</section>
+    			<section id="content-03" class="uk-grid uk-grid-width-1-2 lg-com-panel-01 uk-scrollspy-init-inview" data-uk-scrollspy="{cls:'uk-animation-slide-left', repeat: true}">
+    				<div class="Triangle">
+    					<h3 class="tit">No.3<br>Page Creating</h3>
+    				</div>
+    				<div class="uk-overlay uk-overlay-hover">
+    					<a href="work/content-03/01.html">
+	    					<img src="images/works/house.png" alt="">
+	    					<p class="uk-overlay-panel uk-overlay-fade" >Only One Page</p>
+	    				</a>
+    				</div>
+    			</section>
+    			<section id="content-04" class="uk-grid uk-grid-width-1-2 lg-com-panel-02 uk-scrollspy-init-inview" data-uk-scrollspy="{cls:'uk-animation-slide-right', repeat: true}">
+    				<div class="uk-overlay uk-overlay-hover">
+    					<a href="work/content-04/01.html">
+	    					<img src="images/works/plapla.png" alt="">
+	    					<p class="uk-overlay-panel uk-overlay-fade">Web Service</p>
+	    				</a>
+    				</div>
+    				<div class="Triangle">
+    					<h3 class="tit">No.4<br>Others</h3>
+    				</div>
+    			</section>
+			</div>
+		</div>
+
+	</section>
+
+
+	
+
+	<section id="home-04">
+		<h2 class="tit">Contact</h2>
+    	<form method="post" action="formmail.cgi">
+			<dl>
+				<dt>First name：</dt>
+				<dd><input type="text" name="Fname" size="30"></dd>
+			</dl>
+			<dl>
+				<dt>Scound name：</dt>
+				<dd><input type="text" name="Sname" size="30"></dd>
+			</dl>
+			<dl>
+				<dt>Address：</dt>
+				<dd><input type="text" name="Sname" size="30"></dd>
+			</dl>
+			<p>Message：<br>
+			<textarea name="message" cols="30" rows="5"></textarea></p>
+			<p><input type="submit" value="submit"></p>
+		</form>
+    </section>
+
+    <section id="footer">
+		<h2 class="">Site Map</h2>
+		<ul class="footer-work">
+			<li>Top Page</li>
+			<li>Works</li>
+			<ul class="mt0">
+				 <li><a href="work/content-01/01.html">Manegement</a></li>
+				 <li><a href="work/content-02/01.html">Site Creating</a></li>
+				 <li><a href="work/content-03/01.html">Page Creating</a></li>
+				 <li><a href="work/content-04/01.html">Others</a></li>
+			</ul>
+		</ul>
+    </section>
+
+    </div><!-- home -->
+
+    </body>
+</html>
